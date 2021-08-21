@@ -1,0 +1,257 @@
+body {
+    color: #082808;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+
+}
+img {
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+        width: 90%;
+        max-width: 980px;
+        margin: auto;
+}
+header {
+    background-color: #fff;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.header-left {
+    float: left;
+}
+.header-title {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+.header-right {
+    float: right;
+}
+.header-menu {
+    float: left;
+    padding: 10px 0px;
+    margin-left: 30px;
+    padding: 20px 0px;
+}
+.header-menu a {
+    font-weight: 600;
+}
+.header-menu a:hover {
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+
+.top {
+    background-image: url("https://github.com/mikosawayuta0916/result4/blob/main/img/main-vsual-nontitle.png?raw=true");
+    background-size: cover;
+    padding: 80px 0px;
+}
+.top-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.sub-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+.about-left {
+    width: 46%;
+}
+.about-right {
+    width: 46%;
+}
+
+
+.course {
+    background-color: #3cb371;
+    padding-bottom: 20px;
+}
+.course-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.course-img {
+    width: 30%;
+    
+}
+
+
+
+.contact-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-bottom: 50px;
+}
+.form-text {
+    display: block;
+    margin: auto;
+    padding: 15px 60px;
+    width: 70%;
+    border-radius: 999px;
+    margin-bottom: 30px;
+}
+.btn {
+    display: block;
+    margin: auto;
+padding: 15px 50px;
+border-radius: 999px;
+color: #fff;
+background-color: #082808;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+
+
+
+footer {
+    text-align: center;
+    margin: auto;
+    border-top: 1px solid #082808;
+    width: 90%;
+}
+.footer-text {
+    float: right;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    共通クラス　　　　*/
+.section-title {
+    font-size: 32px;
+    font-weight: 600;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*   メディアクエリ　　　*/
+@media screen and (max-width:768px) {
+    header {
+        height: 130px;
+    }
+    .header-left {
+        float: none;
+    }
+.header-title {
+    text-align: center;
+    font-size: 22px;
+}
+.header-right {
+    float: none;
+    text-align: center;
+}
+.header-menu {
+    float: left;
+    margin-left: 70px;
+}
+.header-menu a {
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 10px;
+    display: block;
+}
+.header-menu a:hover {
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+.top-title {
+    padding-top: 60px;
+    font-size: 30px;
+}
+.sub-title {
+    font-size: 13px;
+}
+.display {
+    display: block;
+    justify-content: space-between;
+}
+.about-left {
+    width: 70%;
+    margin: auto;
+}
+.about-right {
+    width: 60%;
+    margin: auto;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+
+.course {
+    background-color: #3cb371;
+    padding-bottom: 20px;
+}
+.course-item {
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.course-img {
+    width: 70%;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/*   共通クラス   */
+.section-title {
+    font-size: 22px;
+}
+
+
+}
